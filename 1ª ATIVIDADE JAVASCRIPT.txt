@@ -1,0 +1,19 @@
+Acesse pelo menos dois sites de sua preferência e os inspecione com o botão direito do mouse na página web.
+Com o código fonte aberto você deve: 
+
+Verificar no código algum elemento que utilize JavaScript; 
+Marcar alguns elementos do site; 
+Explicar como ele se comporta. Exemplo: entrar no site do Google, inspecionar o botão de pesquisa, verificar o código e explicar qual a finalidade do botão. 
+
+Google
+
+Botão: "fazer login"
+
+Função: Redirecionar o usuario para o login da sua conta Google
+
+Tecmundo
+
+Botão: "ultimas notícias"
+
+Função: Redirecionar o usuario para o endereço "https://www.tecmundo.com.br/novidades", onde se pode ter acesso as ultimas publicações do site
+
