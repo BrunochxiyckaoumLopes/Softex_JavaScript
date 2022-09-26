@@ -1,0 +1,4 @@
+Fiz o download do Visual Studio Code por ser um editor de codigo fonte de fácil utilização,
+após a instalação adicionei a extenção Live Server. 
+Em seguida fiz a criação da pasta dentro do VSCode onde ficarão meus projetos de JavaScript e adicionei os
+arquivos index.html e projeto.js 
