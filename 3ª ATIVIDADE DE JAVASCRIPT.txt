@@ -1,0 +1,3 @@
+Dados Utilizados no Cotidiano: Registros Climáticos, Número de RG, Conta Bancária
+
+Dados na Internet: Localização do usuário via GPS, Perfil de usuário em uma rede social, Feedback de avaliação de um app
