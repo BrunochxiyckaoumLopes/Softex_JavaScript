@@ -1,0 +1,20 @@
+Prototype
+
+    É um padrão de projeto criacional que permite copiar objetos existentes 
+sem fazer seu código ficar dependente de suas classes. 
+O padrão Prototype delega o processo de clonagem para o próprio objeto que está sendo clonado. 
+O padrão declara uma interface comum para todos os objetos que suportam clonagem. 
+Essa interface permite que você clone um objeto sem acoplar seu código à classe daquele objeto. 
+Geralmente, tal interface contém apenas um único método "clone"
+
+Prós
+
+Você pode produzir objetos complexos mais convenientemente.
+
+Você tem uma alternativa para herança quando lidar com configurações pré determinadas para objetos complexos.
+
+Contras
+
+Clonar objetos complexos que têm referências circulares pode ser bem complicado.
+
+FONTE: https://refactoring.guru/pt-br/design-patterns/prototype
