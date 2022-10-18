@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+
+    let banco = {
+        conta:"12345",
+        saldo: 90,
+        tipodeconta: "CC",
+        agencia: 131, 
+        
+        buscarsaldo: function(reais){
+            return this.saldo;
+            console.log("O seu saldo é: "+ banco.saldo + " reais");
+        }
+        
+        deposito: function(VD){
+            this.saldo += VD
+            return this.saldo;
+            console.log("Com o depósito feito, seu saldo passa a ser: " VD + saldo)
+
+        }
+        
+        saque: function(VS){
+            this.saldo -= VS
+            return this.saldo;
+            console.log("Com o saque feito, seu saldo passa a ser: " Saldo - VS)
+        }
+
+        mostrarconta: function(){
+            return this.conta;
+        }
+    }
+
+
+</script>
+    
+</body>
+</html>
