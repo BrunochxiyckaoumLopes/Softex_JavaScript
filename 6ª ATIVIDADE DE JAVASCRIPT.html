@@ -1,0 +1,56 @@
+// PRIMEIRA PARTE DA ATIVIDADE
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+<script>
+ 
+var n1, n2, n3, aprovado
+
+n1 = window.prompt("Qual a primeira nota ?")
+n2 = window.prompt("Qual a segunda nota ?")
+n3 = window.prompt("Qual a terceira nota?")
+
+
+n1 = Number.parseFloat(n1)
+n2 = Number.parseFloat(n2)
+n3 = Number.parseFloat(n3)
+
+media = ((n1+n2+n3) /3)
+
+aprovado = (media >= 7) ? "Aprovado" : "Reprovado";
+
+document.write(`Situação ${aprovado}`)
+</script>
+
+// SEGUNDA PARTE DA ATIVIDADE
+
+
+<script>
+
+var n1, n2, na
+const media = 7
+
+n1 = window.prompt("Qual a primeira nota ?")
+n2 = window.prompt("Qual a segunda nota ?")
+
+
+n1 = Number.parseFloat(n1)
+n2 = Number.parseFloat(n2)
+
+na = 21 - (n1+n2)
+
+document.write(`A nota necessaria para aprovação é: ${na}`)
+
+
+
+</script>
+
+</html>
